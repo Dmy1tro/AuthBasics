@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>
+        CSRF attack emulator
+    </h1>
+    <form id="evil" action="http://localhost:7188/Auth/form-submit" method="POST" style="border: 1px solid black; padding: 15px;">
+        <h3>CSRF volnurable form</h3>
+        <button id="evil-btn" type="submit">Click to submit action</button>
+    </form>
+
+    <form id="evil-v2" action="http://localhost:7188/Auth/form-submit-v2" method="POST" style="margin-top: 50px; border: 1px solid black; padding: 15px;">
+        <h3>CSRF secured form</h3>
+        <button id="evil-btn-v2" type="submit">Click to submit action</button>
+    </form>
+
+    <script>
+
+        // JS code can auto-submit form without user confirmation.
+        // document.getElementById("evil-btn").click();
+    </script>
+</body>
+
+</html>
