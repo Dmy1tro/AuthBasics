@@ -1,32 +1,31 @@
-# Prerequisites
-*.d
+# Project specific
+#
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Visual Studio temporary files
 
-# Precompiled Headers
-*.gch
-*.pch
+## User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Visual Studio 2015 cache/options directory
+.vs/
 
-# Fortran module files
-*.mod
-*.smod
+# Build results
+[Bb]in/
+[Oo]bj/
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# NuGet packages
+packages/
 
-# Executables
-*.exe
-*.out
-*.app
+# Bundled files
+
+.DS_Store
+.idea
+
+.sass-cache
+
+# Local settings
+
+# Auto-generated files
